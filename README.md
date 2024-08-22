@@ -18,9 +18,6 @@ This is a full stack Spotify clone built using the MERN (MongoDB, Express.js, Re
 ![shields](https://img.shields.io/badge/eslint-3A33D1?style=for-the-badge&logo=eslint&logoColor=white)
 ![shields](https://img.shields.io/badge/prettier-1A2C34?style=for-the-badge&logo=prettier&logoColor=F7BA3E)
 
-## Demo
-
-[https://maqsud-spotify.vercel.app/signup](https://maqsud-spotify.vercel.app/signup)
 
 ## Project Screenshots
 
@@ -56,7 +53,7 @@ Follow the instructions inside the `./client` and `./server` directories.
 
 ## Contributing
 
-### NOTE: Please use [this commit](https://github.com/maqsudtolipov/spotify-clone/tree/d6fd416c308b377c0113dfa2d0529bae2356b1e4) if you want to clone this project. I started working V2 and commits after that might not be included in installation steps or create conflicts.
+### NOTE: Please use [this commit](https://github.com/HussainAnjnan5/spotify-clone/tree/d6fd416c308b377c0113dfa2d0529bae2356b1e4) if you want to clone this project. I started working V2 and commits after that might not be included in installation steps or create conflicts.
 
 Contributions to this project are welcome! If you would like to contribute, please follow these steps:
 
@@ -67,7 +64,3 @@ Contributions to this project are welcome! If you would like to contribute, plea
 5. Submit a pull request
 
 Please make sure to follow the code style and include tests for your changes.
-
-## License
-
-This project is licensed under the MIT License.
