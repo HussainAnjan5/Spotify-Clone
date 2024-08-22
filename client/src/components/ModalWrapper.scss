@@ -1,0 +1,63 @@
+.modal-wrapper {
+  width: 38rem;
+  padding: 2.4rem;
+
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  color: #fff;
+  background: #282828;
+  border: none;
+  border-radius: 9px;
+  box-shadow: 0 0 4rem 2rem rgba(0, 0, 0, 0.5);
+
+  &__close {
+    font-size: 2.4rem;
+    cursor: pointer;
+  }
+
+  &__header {
+    margin-bottom: 1.6rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    h2 {
+      font-size: 2rem;
+    }
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+
+    img {
+      height: 24rem;
+      width: 24rem;
+      margin: 1rem 0 1rem 0;
+
+      align-self: center;
+    }
+  }
+
+  // TYPE: List
+  &--list {
+    overflow-y: scroll;
+  }
+
+  &__item {
+    padding: 1.2rem;
+
+    list-style: none;
+
+    &:hover {
+      background-color: rgba(255, 255, 255, 0.1);
+      border-radius: 3px;
+      cursor: pointer;
+    }
+  }
+}

@@ -1,0 +1,24 @@
+.loading {
+  display: grid;
+  align-content: center;
+  justify-items: center;
+  grid-column: 1/-1;
+
+  img {
+    height: 12rem;
+    width: 12rem;
+    margin-bottom: 3.2rem;
+
+    fill: red;
+  }
+
+  a,
+  a:link,
+  a:visited {
+    color: inherit;
+  }
+}
+
+.full-height {
+  height: 100vh;
+}

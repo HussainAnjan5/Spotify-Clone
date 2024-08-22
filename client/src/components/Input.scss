@@ -1,0 +1,16 @@
+.input {
+  min-width: 24rem;
+  padding: 1.2rem 2.4rem;
+
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: #fff;
+  background-color: #121212;
+  border: none;
+  border-radius: 1rem;
+  outline: 1.6px solid #4d4d4d;
+
+  &:focus {
+    outline-color: #e6e6e6;
+  }
+}

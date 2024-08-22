@@ -1,0 +1,156 @@
+.list {
+  &--green {
+    color: #1db954;
+  }
+
+  &__item {
+    color: #fff;
+    border-radius: 3px;
+
+    height: 7.2rem;
+    padding: 0 2rem;
+
+    display: grid;
+    align-items: center;
+    grid-gap: 1.6rem;
+    grid-template-columns: auto auto 2fr 1fr auto auto auto;
+
+    &:hover {
+      background: rgba(255, 255, 255, 0.1);
+    }
+  }
+
+  &__num {
+    text-align: center;
+
+    width: 2rem;
+  }
+
+  img {
+    height: 5.4rem;
+  }
+
+  &__name {
+    cursor: pointer;
+
+    display: flex;
+    align-items: center;
+  }
+
+  &__artist-name,
+  &__artist-name:link,
+  &__artist-name:visited {
+    text-decoration: none;
+    text-align: left;
+    color: inherit;
+  }
+
+  &__count {
+    text-align: center;
+
+    width: 6rem;
+  }
+
+  svg {
+    cursor: pointer;
+    font-size: 2rem;
+  }
+
+  svg:not(:last-child) {
+    color: #1db954;
+  }
+}
+
+// Animation
+.anim {
+  height: 2rem;
+  width: 2rem;
+
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  align-items: end;
+
+  gap: 2px;
+}
+
+.sq {
+  background: #1db954;
+  height: 10%;
+  border-radius: 5px;
+}
+
+.sq1 {
+  animation: sq1 0.5s infinite;
+}
+
+.sq2 {
+  animation: sq2 1s infinite;
+}
+
+.sq3 {
+  animation: sq3 1s infinite;
+}
+
+.sq4 {
+  animation: sq4 1s infinite;
+}
+
+@keyframes sq1 {
+  0% {
+    height: 100%;
+  }
+  25% {
+    height: 20%;
+  }
+  75% {
+    height: 70%;
+  }
+  100% {
+    height: 100%;
+  }
+}
+
+@keyframes sq2 {
+  0% {
+    height: 10%;
+  }
+  25% {
+    height: 50%;
+  }
+  75% {
+    height: 100%;
+  }
+  100% {
+    height: 10%;
+  }
+}
+
+@keyframes sq3 {
+  0% {
+    height: 100%;
+  }
+  25% {
+    height: 30%;
+  }
+  75% {
+    height: 60%;
+  }
+  100% {
+    height: 100%;
+  }
+}
+
+@keyframes sq4 {
+  0% {
+    height: 75%;
+  }
+  25% {
+    height: 100%;
+  }
+  75% {
+    height: 25%;
+  }
+  100% {
+    height: 75%;
+  }
+}

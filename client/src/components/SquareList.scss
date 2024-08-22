@@ -1,0 +1,55 @@
+.square-list {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 2.4rem;
+}
+
+.square-card {
+  width: 100%;
+  padding: 1.6rem;
+
+  position: relative;
+
+  text-decoration: none;
+  color: inherit;
+  background: #181818;
+  border-radius: 9px;
+
+  img {
+    width: 100%;
+    margin-bottom: 1.6rem;
+
+    border-radius: 9px;
+    box-shadow: 0 .8rem 2.4rem rgba(0,0,0,.5);
+  }
+
+  &__name {
+    margin-bottom: 4px;
+
+    font-weight: bold !important;
+    color: #fff !important;
+  }
+
+  &__btn {
+    position: absolute;
+    bottom: 1.6rem;
+    right: 1.6rem;
+    display: none;
+
+    font-size: 5.4rem;
+    color: #1db954ff;
+  }
+
+  &--artist img {
+    border-radius: 50%;
+  }
+
+  &:hover {
+    background: #282828;
+  }
+
+  &:hover .square-card__btn {
+    display: inline-block;
+  }
+
+}

@@ -1,0 +1,45 @@
+.btn {
+  padding: 1.2rem 3.2rem;
+
+  display: flex;
+
+  font-size: 1.6rem;
+  font-weight: 700;
+  text-align: center;
+  color: #000;
+  background: #1db954;
+  border: none;
+  border-radius: 5rem;
+  cursor: pointer;
+
+  img {
+    height: 1.6rem;
+    margin: 0 1.6rem;
+
+    scale: 2;
+  }
+
+  &:hover {
+    background: #1aa74c;
+  }
+
+  &--white {
+    background: #fff;
+
+    &:hover {
+      background: #e6e6e6;
+    }
+  }
+
+  &--red {
+    background: #ef4444;
+
+    &:hover {
+      background: #d73d3d;
+    }
+  }
+
+  &--full-width {
+    width: 100%;
+  }
+}

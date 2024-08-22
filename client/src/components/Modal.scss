@@ -1,0 +1,52 @@
+.modal {
+  width: 38rem;
+  padding: 2.4rem;
+
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  color: #fff;
+  background: #282828;
+  border-radius: 9px;
+  box-shadow: 0 0 4rem 2rem rgba(0, 0, 0, 0.5);
+
+  &--admin &__form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+  }
+
+  &--playlist {
+    width: 50rem;
+
+    .modal__form {
+      display: grid;
+      grid-template-columns: 18rem auto;
+      column-gap: 16px;
+    }
+
+    textarea {
+      height: 12rem;
+      margin-top: 1.6rem;
+    }
+
+    button {
+      margin-top: 0.8rem;
+    }
+  }
+
+  input,
+  textarea {
+    width: 100%;
+    padding: 1.2rem;
+
+    font-family: inherit;
+    font-size: 1.6rem;
+    color: #fff;
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid transparent;
+    border-radius: 3px;
+  }
+}
